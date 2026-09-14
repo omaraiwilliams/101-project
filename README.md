@@ -1,4 +1,4 @@
-# [Your Project Name Here]
+# How good do you know Beyonce?
 > A short one-line tagline for your quiz or questionnaire
 
 ## Overview
