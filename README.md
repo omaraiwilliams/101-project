@@ -1,27 +1,38 @@
-# How good do you know Beyonce?
-> A short one-line tagline for your quiz or questionnaire
+# Do You Know Your Beyonce?
+> A quiz fit for the best bee in the HIVE
 
 ## Overview
-> **DELETE AND REPLACE ME:** Describe your program's focus, the type of
-> program it is (quiz, personality test, or recommendation tool), and the
-> final output a user will receive. Make it clear how user input and
-> conditional logic work together to produce that result.
->
-> Example: "This program quizzes users on Impressionist art. Based on
-> their answers, users earn points, and their final score determines
-> their level of knowledge on the topic."
+> This code will quiz users in knowledge of Beyonce. It will question
+> the user on facts about the artist and the user will earn points.
+> Their final score will determine which level of Beyhive they are.
 
 ## Sample Questions and Responses
-> **DELETE AND REPLACE ME:** List at least five questions you'll ask the
-> user, along with the possible responses for each. Keep every question
-> closed-ended (numbered options or yes/no) so each response can be
-> handled directly by an `if`, `elif`, or `else` statement.
+
+> Where was Beyonce born?
+> 1. Houston, Tx
+> 2. Little Rock, Ar
+> 3. New York City, NY
 >
-> Example:
-> Which of the following painters is an Impressionist?
-> 1. Monet
-> 2. Warhol
-> 3. Rembrandt
+> > What Girl Group was Beyonce in?
+> 1. Pussycat Dolls
+> 2. Destiny's Child
+> 3. SWV
+>
+> > What is Beyonce's husband name?
+> 1. Jay Z
+> 2. Barrack Obama
+> 3. Kanye West
+>
+> > What was Beyonce's first album?
+> 1. Channel Orange
+> 2. Dangerously in Love
+> 3. Pink Friday
+>
+> > How many Grammys does Beyonce have?
+> 1. 12
+> 2. 35
+> 3. 28
+
 
 ## Variables
 > **DELETE AND REPLACE ME:** List the variables your program uses. For
