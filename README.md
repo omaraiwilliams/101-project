@@ -8,67 +8,89 @@
 
 ## Sample Questions and Responses
 
-> Where was Beyonce born?
+> Where was Beyonce born? (Enter 1-3)
 > 1. Houston, Tx
 > 2. Little Rock, Ar
 > 3. New York City, NY
 >
-> > What Girl Group was Beyonce in?
+> > What Girl Group was Beyonce in? (Enter 1-3)
 > 1. Pussycat Dolls
 > 2. Destiny's Child
 > 3. SWV
 >
-> > What is Beyonce's husband name?
+> > What is Beyonce's husband name? (Enter 1-3)
 > 1. Jay Z
 > 2. Barrack Obama
 > 3. Kanye West
 >
-> > What was Beyonce's first album?
+> > What was Beyonce's first solo album? (Enter 1-3)
 > 1. Channel Orange
 > 2. Dangerously in Love
 > 3. Pink Friday
 >
-> > How many Grammys does Beyonce have?
+> > Bonus: How many Grammys does Beyonce have? (Enter 1-3)
 > 1. 12
-> 2. 35
-> 3. 28
+> 2. 28
+> 3. 35
 
 
 ## Variables
-> **DELETE AND REPLACE ME:** List the variables your program uses. For
-> each one, note what it stores and why you structured it that way,
-> especially for variables tracking results, explain whether a single
-> variable or multiple variables makes sense for your program's logic.
 >
-> Example:
-> - `score` (int): tracks total quiz points. A single variable works here
+> - `score` (int): tracks all quiz points. A single variable works here
 >   since results are cumulative and only one final score matters.
-> - `decade_1920s_points`, `decade_1960s_points`, `decade_1980s_points`
->   (int): separate variables needed since multiple decades can tie for
->   highest score, one combined variable couldn't represent that.
-> - `user_choice` (str or int): stores the user's response to a question,
->   compared against expected options to decide which branch of the
->   conditional runs.
+>
+> - `birthplace` (str): asks for user input and stores the user's response to a question 1.
+>    A single variable works here since results are specific to this question.
+> - `girl_group` (str): asks for user input and stores the user's response to a question 2.
+>    A single variable works here since results are specific to this question.
+> - `husband` (str): asks for user input and stores the user's response to a question 3.
+>    A single variable works here since results are specific to this question.
+> - `album` (str): asks for user input and stores the user's response to a question 4.
+>    A single variable works here since results are specific to this question.
+> - `grammy` (str): asks for user input and stores the user's response to a question 5.
+>    A single variable works here since results are specific to this question.
 
 ## Conditional Logic Outline
-> **DELETE AND REPLACE ME:** Outline every conditional statement in your
-> program, in the order they appear. For each one, describe it in plain
-> language (no code needed): which question/condition it relates to,
-> each branch (`if`/`elif`/`else`), the exact condition that triggers
-> each branch, the action(s) that happen in each branch, and note any
-> nested conditionals and why they're nested.
 >
-> Example:
-> - **Conditional statement 1** — related to "Which of the following
->   painters is an Impressionist? 1-Monet 2-Warhol 3-Rembrandt"
->   - `if` response is 1 (Monet): display congratulatory message,
->     increment `score` by 1
->   - `else`: display incorrect message and explain the correct answer
+> - **Conditional statement 1** — Where was Beyonce born? (Enter 1-3)
+> 1. Houston, Tx, 2. Little Rock, Ar, 3. New York City, NY
+>   - `if` response is 1 (Houston, Tx): display "correct",
+>     increase `score` by 1
+>   - `else`: display "wrong" and print the correct answer
 >
-> - **Conditional statement 2** — reveals final results based on `score`
->   - `if` score is 3: display high-knowledge message
->   - `elif` score is 1 or 2: display some-knowledge message
->   - `else`: display message encouraging the user to learn more
+>
+> - **Conditional statement 2** — What Girl Group was Beyonce in? (Enter 1-3)
+> 1. Pussycat Dolls, 2. Destiny's Child, 3. SWV
+>   - `if` response is 2 (Destiny's Child): display "correct",
+>     increase `score` by 1
+>   - `else`: display "wrong" and print the correct answer
+>
+>
+> - **Conditional statement 3** — > What is Beyonce's husband name? (Enter 1-3)
+> 1. Jay Z, 2. Curtis, 3. Kanye West
+>   - `if` response is 1 (Jay Z): display "correct",
+>     increase `score` by 1
+>   - `else`: display "wrong" and print the correct answer
+>
+>
+> - **Conditional statement 4** — > > What was Beyonce's first solo album? (Enter 1-3)
+> 1. Channel Orange, 2. Dangerously in Love, 3. Pink Friday
+>   - `if` response is 2 (Dangerously in Love): display "correct",
+>     increase `score` by 1
+>   - `else`: display "wrong" and print the correct answer
+>
+>
+> - **Conditional statement 5** — Bonus: How many Grammys does Beyonce have? (Enter 1-3)
+> 1. 12, 2. 28, 3. 35
+>   - `if` response is 3 (35): display "correct",
+>     increase `score` by 3
+>   - `else`: display "wrong" and print the correct answer
+>
+>
+> - **Conditional statement 6** — final results based on `score`
+>   - `if` score is 7: print "THEE BUG A BOO" 
+>   - `elif` score is 4 or 3: print "Barely Buzzin"
+>   - `else`: print "Not a bee at all"
 
 ## How to Run
 1. Clone this repo
